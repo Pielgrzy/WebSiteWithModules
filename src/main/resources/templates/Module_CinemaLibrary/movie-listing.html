@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl"
+      xmlns:th="https://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{Module_CinemaLibrary/layout}">
+<body>
+<div class="container">
+    <main class="main-class" layout:fragment="content">
+        <h2 class="list-heading" th:text="${heading}">Promowane filmy / lista kategorii</h2>
+        <p class="list-description" th:text="${description}">Opis sekcji, przykładowo opis kategorii</p>
+        <ul class="movie-list" th:remove="all-but-first">
+            <li class="movie-list-item" th:each="movie: ${movies}">
+                <a href="#" th:href="@{|/CinemaLibrary/film/${movie.id}|}">
+                    <img src="../../static/Module_CinemaLibrary/img/poster-placeholder.png"
+                         th:src="@{/Module_CinemaLibrary/img/poster-placeholder.png}"
+                         alt="tytuł filmu"
+                         class="movie-list-item-poster">
+                </a>
+                <div class="movie-list-item-card">
+                    <div class="movie-list-item-content">
+                        <h3 class="movie-list-item-title">
+                            <a href="#" th:href="@{|/CinemaLibrary/film/${movie.id}|}" th:text="${movie.title}">Tytuł filmu</a>
+                        </h3>
+                        <h4 th:text="${movie.originalTitle}">Angielski tytuł filmu</h4>
+                        <p th:text="${movie.releaseYear}">1999</p>
+                    </div>
+                    <div class="movie-list-item-rating">
+                        <i class="fas fa-star"></i>
+                        <span>8.7</span>
+                    </div>
+                </div>
+            </li>
+            <li class="movie-list-item">
+                <a href="#">
+                    <img src="../../static/Module_CinemaLibrary/img/poster-placeholder.png"
+                         alt="tytuł filmu"
+                         class="movie-list-item-poster">
+                </a>
+                <div class="movie-list-item-card">
+                    <div class="movie-list-item-content">
+                        <h3 class="movie-list-item-title">
+                            <a href="#">Tytuł filmu</a>
+                        </h3>
+                        <h4>Angielski tytuł filmu</h4>
+                        <p>1999</p>
+                    </div>
+                    <div class="movie-list-item-rating">
+                        <i class="fas fa-star"></i>
+                        <span>8.7</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </main>
+</div>
+</body>
+</html>

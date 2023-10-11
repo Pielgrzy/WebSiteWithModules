@@ -1,0 +1,10 @@
+insert into genre (name, description) values ('Drama', 'Etiam pretium iaculis justo.');
+insert into genre (name, description) values ('War', 'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.');
+insert into genre (name, description) values ('Romance', 'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.');
+insert into genre (name, description) values ('Comedy', 'Duis consequat dui nec nisi volutpat eleifend.');
+insert into genre (name, description) values ('Action', 'Morbi vel lectus in quam fringilla rhoncus.');
+insert into genre (name, description) values ('Crime', 'Cras pellentesque volutpat dui.');
+insert into genre (name, description) values ('Adventure', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.');
+insert into genre (name, description) values ('Thriller', 'In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.');
+insert into genre (name, description) values ('Fantasty', 'In quis justo. Maecenas rhoncus aliquam lacus.');
+insert into genre (name, description) values ('Horror', 'Nulla facilisi.');

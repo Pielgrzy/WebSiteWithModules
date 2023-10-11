@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl"
+      xmlns:th="https://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{Module_CinemaLibrary/layout}">
+<head>
+    <title>Gatunki filmowe - Cinema Library</title>
+</head>
+<body>
+<main class="main-content" layout:fragment="content">
+    <h2 class="list-heading">Gatunki filmowe</h2>
+    <p class="list-description">
+        Lista gatnków filmowych
+    </p>
+    <ul class="list-border">
+        <li th:each="genres: ${genre}">
+            <a th:href="@{|/CinemaLibrary/gatunek/${genres.name}|}"
+               th:text="${genres.name}">
+                Gatunek filmowy
+            </a>
+        </li>
+    </ul>
+</main>
+
+</body>
+</html>
