@@ -1,4 +1,4 @@
-package pl.gameandfun.maincode.Module_CinemaLibrary.genre;
+package pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.genre;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

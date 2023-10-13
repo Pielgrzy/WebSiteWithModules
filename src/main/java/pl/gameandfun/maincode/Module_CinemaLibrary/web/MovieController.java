@@ -6,8 +6,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.server.ResponseStatusException;
-import pl.gameandfun.maincode.Module_CinemaLibrary.movie.MovieService;
-import pl.gameandfun.maincode.Module_CinemaLibrary.movie.dto.MovieDto;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie.MovieService;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie.dto.MovieDto;
 
 @Controller
 public class MovieController {

@@ -1,4 +1,4 @@
-package pl.gameandfun.maincode.Module_CinemaLibrary.genre.dto;
+package pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.genre.dto;
 
 public class GenreDto {
     private Long id;

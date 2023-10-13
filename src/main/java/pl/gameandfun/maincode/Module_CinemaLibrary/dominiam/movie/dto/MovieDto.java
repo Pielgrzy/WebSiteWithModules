@@ -1,13 +1,6 @@
-package pl.gameandfun.maincode.Module_CinemaLibrary.movie;
+package pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie.dto;
 
-import jakarta.persistence.*;
-import pl.gameandfun.maincode.Module_CinemaLibrary.genre.Genre;
-
-@Entity
-public class Movie {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class MovieDto {
     private Long id;
     private String title;
     private String originalTitle;
@@ -15,11 +8,27 @@ public class Movie {
     private String description;
     private String youtubeTrailerId;
     private Integer releaseYear;
-    @ManyToOne
-    @JoinColumn(name = "genre_id", referencedColumnName = "id")
-    private Genre genre;
+    private String genre;
     private boolean promoted;
     private String poster;
+
+    public MovieDto(Long id,
+                    String title,
+                    String originalTitle,
+                    String shortDescription, String description, String youtubeTrailerId, Integer releaseYear,
+                    String genre,
+                    boolean promoted, String poster) {
+        this.id = id;
+        this.title = title;
+        this.originalTitle = originalTitle;
+        this.shortDescription = shortDescription;
+        this.description = description;
+        this.youtubeTrailerId = youtubeTrailerId;
+        this.releaseYear = releaseYear;
+        this.genre = genre;
+        this.promoted = promoted;
+        this.poster = poster;
+    }
 
     public String getShortDescription() {
         return shortDescription;
@@ -77,11 +86,11 @@ public class Movie {
         this.releaseYear = releaseYear;
     }
 
-    public Genre getGenre() {
+    public String getGenre() {
         return genre;
     }
 
-    public void setGenre(Genre genre) {
+    public void setGenre(String genre) {
         this.genre = genre;
     }
 

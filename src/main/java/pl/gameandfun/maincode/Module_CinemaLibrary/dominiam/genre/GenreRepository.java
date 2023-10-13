@@ -1,4 +1,4 @@
-package pl.gameandfun.maincode.Module_CinemaLibrary.genre;
+package pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.genre;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

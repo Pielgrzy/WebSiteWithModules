@@ -1,34 +1,25 @@
-package pl.gameandfun.maincode.Module_CinemaLibrary.movie.dto;
+package pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie;
 
+import jakarta.persistence.*;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.genre.Genre;
 
-import org.springframework.web.multipart.MultipartFile;
+@Entity
+public class Movie {
 
-public class MovieSaveDto {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String title;
     private String originalTitle;
     private String shortDescription;
     private String description;
     private String youtubeTrailerId;
     private Integer releaseYear;
-    private String genre;
+    @ManyToOne
+    @JoinColumn(name = "genre_id", referencedColumnName = "id")
+    private Genre genre;
     private boolean promoted;
-    private MultipartFile poster;
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getOriginalTitle() {
-        return originalTitle;
-    }
-
-    public void setOriginalTitle(String originalTitle) {
-        this.originalTitle = originalTitle;
-    }
+    private String poster;
 
     public String getShortDescription() {
         return shortDescription;
@@ -54,6 +45,30 @@ public class MovieSaveDto {
         this.youtubeTrailerId = youtubeTrailerId;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getOriginalTitle() {
+        return originalTitle;
+    }
+
+    public void setOriginalTitle(String originalTitle) {
+        this.originalTitle = originalTitle;
+    }
+
     public Integer getReleaseYear() {
         return releaseYear;
     }
@@ -62,11 +77,11 @@ public class MovieSaveDto {
         this.releaseYear = releaseYear;
     }
 
-    public String getGenre() {
+    public Genre getGenre() {
         return genre;
     }
 
-    public void setGenre(String genre) {
+    public void setGenre(Genre genre) {
         this.genre = genre;
     }
 
@@ -78,11 +93,11 @@ public class MovieSaveDto {
         this.promoted = promoted;
     }
 
-    public MultipartFile getPoster() {
+    public String getPoster() {
         return poster;
     }
 
-    public void setPoster(MultipartFile poster) {
+    public void setPoster(String poster) {
         this.poster = poster;
     }
 }

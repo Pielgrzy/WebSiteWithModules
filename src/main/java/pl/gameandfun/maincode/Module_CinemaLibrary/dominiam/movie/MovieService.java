@@ -1,10 +1,10 @@
-package pl.gameandfun.maincode.Module_CinemaLibrary.movie;
+package pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie;
 
 import org.springframework.stereotype.Service;
-import pl.gameandfun.maincode.Module_CinemaLibrary.genre.Genre;
-import pl.gameandfun.maincode.Module_CinemaLibrary.genre.GenreRepository;
-import pl.gameandfun.maincode.Module_CinemaLibrary.movie.dto.MovieDto;
-import pl.gameandfun.maincode.Module_CinemaLibrary.movie.dto.MovieSaveDto;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.genre.GenreRepository;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.genre.Genre;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie.dto.MovieDto;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie.dto.MovieSaveDto;
 import pl.gameandfun.maincode.Module_CinemaLibrary.storage.FileStorageService;
 
 import java.util.List;

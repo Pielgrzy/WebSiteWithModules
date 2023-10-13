@@ -1,6 +1,6 @@
-package pl.gameandfun.maincode.Module_CinemaLibrary.genre;
+package pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.genre;
 
-import pl.gameandfun.maincode.Module_CinemaLibrary.genre.dto.GenreDto;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.genre.dto.GenreDto;
 
 public class GenreDtoMapper {
     public static GenreDto mapperDto(Genre genre) {

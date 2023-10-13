@@ -6,7 +6,8 @@ spring:
     change-log: classpath:db/Module_CinemaLibrary/changelog/master.xml
   web:
     resources:
-      static-locations: classpath:/static/Module_CinemaLibrary/,file:./uploads/
-  app:
-    storage:
-      location: ./uploads/
+      static-locations: classpath:/static/,file:./uploads/
+
+app:
+  storage:
+    location: ./uploads/

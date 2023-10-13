@@ -1,7 +1,9 @@
-package pl.gameandfun.maincode.Module_CinemaLibrary.movie.dto;
+package pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie.dto;
 
-public class MovieDto {
-    private Long id;
+
+import org.springframework.web.multipart.MultipartFile;
+
+public class MovieSaveDto {
     private String title;
     private String originalTitle;
     private String shortDescription;
@@ -10,24 +12,22 @@ public class MovieDto {
     private Integer releaseYear;
     private String genre;
     private boolean promoted;
-    private String poster;
+    private MultipartFile poster;
 
-    public MovieDto(Long id,
-                    String title,
-                    String originalTitle,
-                    String shortDescription, String description, String youtubeTrailerId, Integer releaseYear,
-                    String genre,
-                    boolean promoted, String poster) {
-        this.id = id;
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
         this.title = title;
+    }
+
+    public String getOriginalTitle() {
+        return originalTitle;
+    }
+
+    public void setOriginalTitle(String originalTitle) {
         this.originalTitle = originalTitle;
-        this.shortDescription = shortDescription;
-        this.description = description;
-        this.youtubeTrailerId = youtubeTrailerId;
-        this.releaseYear = releaseYear;
-        this.genre = genre;
-        this.promoted = promoted;
-        this.poster = poster;
     }
 
     public String getShortDescription() {
@@ -54,30 +54,6 @@ public class MovieDto {
         this.youtubeTrailerId = youtubeTrailerId;
     }
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getOriginalTitle() {
-        return originalTitle;
-    }
-
-    public void setOriginalTitle(String originalTitle) {
-        this.originalTitle = originalTitle;
-    }
-
     public Integer getReleaseYear() {
         return releaseYear;
     }
@@ -102,11 +78,11 @@ public class MovieDto {
         this.promoted = promoted;
     }
 
-    public String getPoster() {
+    public MultipartFile getPoster() {
         return poster;
     }
 
-    public void setPoster(String poster) {
+    public void setPoster(MultipartFile poster) {
         this.poster = poster;
     }
 }

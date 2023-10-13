@@ -6,15 +6,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-import pl.gameandfun.maincode.Module_CinemaLibrary.genre.GenreService;
-import pl.gameandfun.maincode.Module_CinemaLibrary.genre.dto.GenreDto;
-import pl.gameandfun.maincode.Module_CinemaLibrary.movie.MovieService;
-import pl.gameandfun.maincode.Module_CinemaLibrary.movie.dto.MovieSaveDto;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.genre.GenreService;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.genre.dto.GenreDto;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie.MovieService;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie.dto.MovieSaveDto;
 
 import java.util.List;
 
 @Controller
-@RequestMapping("/Module_CinemaLibrary")
+@RequestMapping("/CinemaLibrary")
 public class MovieManagementController {
 
     private final MovieService movieService;
@@ -40,6 +40,6 @@ public class MovieManagementController {
         redirectAttributes.addFlashAttribute(
                 AdminController.NOTIFICATION_ATTRIBUTE,
                 "Film %s został zapisany".formatted(movieSaveDto.getTitle()));
-        return "redirect:/Module_CinemaLibrary/admin";
+        return "redirect:/CinemaLibrary/admin";
     }
 }

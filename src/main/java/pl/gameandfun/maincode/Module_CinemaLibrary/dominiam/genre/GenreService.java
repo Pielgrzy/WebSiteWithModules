@@ -1,8 +1,8 @@
-package pl.gameandfun.maincode.Module_CinemaLibrary.genre;
+package pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.genre;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import pl.gameandfun.maincode.Module_CinemaLibrary.genre.dto.GenreDto;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.genre.dto.GenreDto;
 
 import java.util.List;
 import java.util.Optional;

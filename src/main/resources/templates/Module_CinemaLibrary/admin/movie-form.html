@@ -18,7 +18,7 @@
         <input type="number" id="releaseYear" placeholder="Rok premiery..." step="1" th:field="*{releaseYear}">
         <label for="genre">Gatunek</label>
         <select id="genre" th:field="*{genre}" required>
-            <option valve="" hidden>Wybierz gatunek</option>
+            <option value="" hidden>Wybierz gatunek</option>
             <option th:each="genre: ${genres}" th:value="${genre.name}" th:text="${genre.name}"></option>
         </select>
         <label for="promoted">Promowanie na stronie główne?</label>

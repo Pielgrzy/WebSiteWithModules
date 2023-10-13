@@ -3,8 +3,8 @@ package pl.gameandfun.maincode.Module_CinemaLibrary.web;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import pl.gameandfun.maincode.Module_CinemaLibrary.movie.MovieService;
-import pl.gameandfun.maincode.Module_CinemaLibrary.movie.dto.MovieDto;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie.MovieService;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie.dto.MovieDto;
 
 import java.util.List;
 

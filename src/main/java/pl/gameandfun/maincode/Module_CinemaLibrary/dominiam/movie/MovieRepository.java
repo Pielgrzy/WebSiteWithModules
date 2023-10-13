@@ -1,4 +1,4 @@
-package pl.gameandfun.maincode.Module_CinemaLibrary.movie;
+package pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie;
 
 import org.springframework.data.repository.CrudRepository;
 

@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.server.ResponseStatusException;
-import pl.gameandfun.maincode.Module_CinemaLibrary.genre.GenreService;
-import pl.gameandfun.maincode.Module_CinemaLibrary.genre.dto.GenreDto;
-import pl.gameandfun.maincode.Module_CinemaLibrary.movie.MovieService;
-import pl.gameandfun.maincode.Module_CinemaLibrary.movie.dto.MovieDto;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.genre.GenreService;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.genre.dto.GenreDto;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie.MovieService;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie.dto.MovieDto;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package pl.gameandfun.maincode.Module_CinemaLibrary.movie;
+package pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie;
 
-import pl.gameandfun.maincode.Module_CinemaLibrary.movie.dto.MovieDto;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.movie.dto.MovieDto;
 
 public class MovieDtoMapper {
     static MovieDto mapperDto(Movie movie) {

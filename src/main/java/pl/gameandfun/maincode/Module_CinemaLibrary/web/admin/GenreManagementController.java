@@ -6,14 +6,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-import pl.gameandfun.maincode.Module_CinemaLibrary.genre.GenreService;
-import pl.gameandfun.maincode.Module_CinemaLibrary.genre.dto.GenreDto;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.genre.GenreService;
+import pl.gameandfun.maincode.Module_CinemaLibrary.dominiam.genre.dto.GenreDto;
 
 @Controller
 @RequestMapping("/CinemaLibrary")
 public class GenreManagementController {
 
-    final private GenreService genreService;
+    private final GenreService genreService;
 
     public GenreManagementController(GenreService genreService) {
         this.genreService = genreService;
