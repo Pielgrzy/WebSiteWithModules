@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81aa1eca-78b6-453a-b6af-f1c0c612b117" name="Changes" comment="Add poster as file">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/UserDtoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/Module_CinemaLibrary/changelog/0003_create_tables_users_and_role.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/Module_CinemaLibrary/testdata/0003_user_and_roles.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/img/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/img/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/img/krol_lew00.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/storage/FileStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/storage/FileStorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/Module_CinemaLibrary/changelog/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/Module_CinemaLibrary/changelog/master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Module_CinemaLibrary/movie-listing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Module_CinemaLibrary/movie-listing.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/uploads">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2Vr6FcxnVER0sPsKEr2uMla7Hm8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/MainCode/MainCode/uploads/img&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d283b3cfce65c47f21057dc74297f291&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;h2&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\MainCode\MainCode\uploads\img" />
+      <recent name="D:\Java\MainCode\MainCode\src\main\resources\db\changelog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\MainCode\MainCode\src\main\resources\templates\Module_CinemaLibrary\admin" />
+      <recent name="D:\Java\MainCode\MainCode\src\main\resources\templates" />
+      <recent name="D:\Java\MainCode\MainCode\src\main\resources\templates\Module_CinemaLibrary" />
+      <recent name="D:\Java\MainCode\MainCode\src\main\resources\db\Module_CinemaLibrary" />
+      <recent name="D:\Java\MainCode\MainCode\src\main\resources\static\" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainCodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="MainCode" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.gameandfun.maincode.MainCodeApplication" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81aa1eca-78b6-453a-b6af-f1c0c612b117" name="Changes" comment="" />
+      <created>1695581757275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695581757275</updated>
+      <workItem from="1695581758278" duration="145000" />
+      <workItem from="1695655457805" duration="9955000" />
+      <workItem from="1695746213206" duration="3961000" />
+      <workItem from="1695846686732" duration="1988000" />
+      <workItem from="1695914921637" duration="472000" />
+      <workItem from="1695924647555" duration="601000" />
+      <workItem from="1696243513617" duration="1325000" />
+      <workItem from="1696245081881" duration="2753000" />
+      <workItem from="1696257740381" duration="4563000" />
+      <workItem from="1696334279363" duration="3794000" />
+      <workItem from="1696347621351" duration="3231000" />
+      <workItem from="1696360519577" duration="1442000" />
+      <workItem from="1696417758525" duration="4199000" />
+      <workItem from="1696433422686" duration="152000" />
+      <workItem from="1696516703649" duration="7388000" />
+      <workItem from="1696595074175" duration="7863000" />
+      <workItem from="1696609154170" duration="9686000" />
+      <workItem from="1696680469804" duration="6704000" />
+      <workItem from="1696713922347" duration="155000" />
+      <workItem from="1696766268555" duration="449000" />
+      <workItem from="1696774393024" duration="8271000" />
+      <workItem from="1696867222991" duration="8209000" />
+      <workItem from="1696956612120" duration="2396000" />
+      <workItem from="1697041083024" duration="5600000" />
+      <workItem from="1697126152815" duration="1160000" />
+      <workItem from="1697129206651" duration="219000" />
+      <workItem from="1697129433659" duration="109000" />
+      <workItem from="1697129550712" duration="4881000" />
+      <workItem from="1697143712991" duration="391000" />
+      <workItem from="1697144279087" duration="1750000" />
+      <workItem from="1697214482734" duration="7346000" />
+      <workItem from="1697283140155" duration="2518000" />
+      <workItem from="1697297635179" duration="1592000" />
+      <workItem from="1697308342628" duration="3132000" />
+      <workItem from="1697392470660" duration="647000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add poster as file">
+      <option name="closed" value="true" />
+      <created>1697225517726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697225517726</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add poster as file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add poster as file" />
+  </component>
+</project>
