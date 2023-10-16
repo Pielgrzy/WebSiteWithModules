@@ -4,32 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81aa1eca-78b6-453a-b6af-f1c0c612b117" name="Changes" comment="Add poster as file">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/UserDtoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/Module_CinemaLibrary/changelog/0003_create_tables_users_and_role.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/Module_CinemaLibrary/testdata/0003_user_and_roles.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/img/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/img/1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/img/krol_lew00.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/storage/FileStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/storage/FileStorageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/Module_CinemaLibrary/changelog/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/Module_CinemaLibrary/changelog/master.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Module_CinemaLibrary/movie-listing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Module_CinemaLibrary/movie-listing.html" afterDir="false" />
+    <list default="true" id="81aa1eca-78b6-453a-b6af-f1c0c612b117" name="Changes" comment="Wersja 15.10.2023">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/confing/security/CustomSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/confing/security/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/UserDtoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/UserCredentialsDtoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gameandfun/maincode/Module_CinemaLibrary/dominiam/user/dto/UserCredentialsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/Module_CinemaLibrary/changelog/0003_create_tables_users_and_role.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/Module_CinemaLibrary/changelog/0003_create_tables_users_and_role.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Module_CinemaLibrary/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Module_CinemaLibrary/layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,38 +75,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java/MainCode/MainCode/uploads/img&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;d283b3cfce65c47f21057dc74297f291&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "903",
+    "RequestMappingsPanelWidth1": "902",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "android.gradle.sync.needed": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "last_opened_file_path": "D:/Java/MainCode/MainCode/uploads/img",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "d283b3cfce65c47f21057dc74297f291",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;h2&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\MainCode\MainCode\uploads\img" />
@@ -186,7 +174,8 @@
       <workItem from="1697283140155" duration="2518000" />
       <workItem from="1697297635179" duration="1592000" />
       <workItem from="1697308342628" duration="3132000" />
-      <workItem from="1697392470660" duration="647000" />
+      <workItem from="1697392470660" duration="5066000" />
+      <workItem from="1697475292402" duration="1950000" />
     </task>
     <task id="LOCAL-00001" summary="Add poster as file">
       <option name="closed" value="true" />
@@ -196,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697225517726</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Wersja 15.10.2023">
+      <option name="closed" value="true" />
+      <created>1697393149718</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697393149718</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +212,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add poster as file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add poster as file" />
+    <MESSAGE value="Wersja 15.10.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wersja 15.10.2023" />
   </component>
 </project>
